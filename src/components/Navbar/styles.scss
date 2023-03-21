@@ -1,5 +1,10 @@
 .navbar {
-  margin: 30px;
+  
+  width: 100%;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  
+  margin-top: 20px;;
   
 
   &__list {
@@ -7,6 +12,7 @@
     align-items: center;
     justify-content: center;
     column-gap: 20px; 
+    
 
     &__elements:hover{
       color:#7EDFF2 
