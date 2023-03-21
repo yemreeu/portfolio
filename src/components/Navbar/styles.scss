@@ -1,0 +1,21 @@
+.navbar {
+  margin: 30px;
+  
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px; 
+
+    &__elements:hover{
+      color:#7EDFF2 
+    }
+
+    
+    
+  
+
+  
+  }
+}
