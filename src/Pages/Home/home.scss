@@ -1,8 +1,18 @@
-.homePage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-    padding-left: 20px;
-    font-size: larger;
+.homePage {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  padding-left: 10px;
+  font-size: larger;
+  align-items: center;
+
+  &_left {
+    flex: 1;
+  }
+  &_right {
+    flex: 1;
+    
+    
+  }
+
 }

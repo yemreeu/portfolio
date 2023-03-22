@@ -8,12 +8,12 @@ import "./home.scss";
 function Home() {
   return (
     <div className="homePage">
-      <div >
+      <div  className="homePage__left">
         <h1>Hello there!</h1>
         <h4>I am Yunus Emre Uyanık</h4>
         <br />
         <p>
-          This is my official portfolio website to shows all the information
+          This is my official portfolio website <br /> to shows all the information
           about me
         </p>
         <br />
@@ -21,7 +21,7 @@ function Home() {
         <Download />
         <Social />
       </div>
-      <div>
+      <div className="homePage__right"> 
         <Profile />
       </div>
     </div>
