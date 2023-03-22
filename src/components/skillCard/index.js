@@ -26,7 +26,7 @@ function SkillCard() {
         <CardBody>
           <Image
             src="./todo.png"
-            alt="Green double couch with wooden legs"
+            alt="todo image"
             borderRadius="2xl"
             height={""}
           />
@@ -65,7 +65,7 @@ function SkillCard() {
         <CardBody>
           <Image
             src="./weather.png"
-            alt="Green double couch with wooden legs"
+            alt="weather foreacast app image"
             borderRadius="2xl"
             height={"s"}
           />
@@ -110,7 +110,7 @@ function SkillCard() {
         <CardBody>
           <Image
             src="./tour.png"
-            alt="Green double couch with wooden legs"
+            alt="tour places app image"
             borderRadius="2xl"
             height={"s"}
           />
