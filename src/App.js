@@ -10,20 +10,23 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <Router>
-      <div className="app reset">
-        <Navbar />
-
-        <Routes>
+    <div className="app reset flex-wrapper">
+      <Router>
+        <div className="header">
+          <Navbar />
+        </div>
+        <div className="content"><Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+        </Routes></div>
+        <div className="footer"><Footer /></div>
+
+        
+      </Router>
+    </div>
   );
 }
 

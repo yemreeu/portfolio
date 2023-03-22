@@ -17,7 +17,7 @@ function Navbar() {
           <Link to="/about">About</Link>
         </li>
         <li className="navbar__list__elements">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/portfolio">Projects</Link>
         </li>
         <li className="navbar__list__elements">
           <Link to="/services">Services</Link>
